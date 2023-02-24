@@ -1,0 +1,10 @@
+print('#' * 30)
+for i in range(10):
+    print(str(i + 1), ')', 'Abu ')
+print('#' * 30)
+print(*range(0, 101))
+print('#' * 30)
+print(*range(0,101,2))
+print('#' * 30)
+print(*range(0,101,4))
+print('#' * 30)
